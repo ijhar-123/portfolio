@@ -1,6 +1,6 @@
 import profilePic from "../assets/raviKumarProfile.jpg";
 import { HERO_CONTENT } from "../constants";
-import { motion } from "framer-motion";
+
 
 const containerVariants = {
     hidden: { opacity: 0, x: -100 },
@@ -45,7 +45,7 @@ const Hero = () => {
 
                             <motion.img
                                 src={profilePic}
-                                alt="Deepak Kumar"
+                                alt="Mo Ijhar"
                                 className="border border-stone-900 rounded-3xl relative z-10"
                                 animate={{ x: [0, 20, 0] }} // Move right then back to original position
                                 transition={{
